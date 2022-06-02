@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:controller="br.edu.iftm.javafx1.ViewController" minHeight="200.0" prefHeight="200.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" >
+   <children>
+      <Button fx:id="botaoLogin" layoutX="76.0" layoutY="128.0" mnemonicParsing="false" onAction="#onBotaoLoginClick" text="Login" AnchorPane.leftAnchor="76.0" AnchorPane.topAnchor="128.0" />
+      <Label layoutX="14.0" layoutY="29.0" prefHeight="35.0" prefWidth="55.0" text="Usuario:" textAlignment="CENTER" />
+      <TextField fx:id="campoUsuario" layoutX="76.0" layoutY="34.0" />
+      <Label layoutX="14.0" layoutY="81.0" text="Senha:" />
+      <PasswordField fx:id="campoSenha" layoutX="76.0" layoutY="77.0" />
+      <Button fx:id="botaoCancelar" layoutX="138.0" layoutY="128.0" mnemonicParsing="false" onAction="#onbotaoCancelar" text="Cancelar" />
+   </children>
+</AnchorPane>
